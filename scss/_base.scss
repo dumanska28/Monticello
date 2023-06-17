@@ -1,0 +1,60 @@
+@use "helpers" as *;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: $font-moncerat;
+  color: $color-main;
+}
+
+.container {
+  max-width: 1190px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+i {
+  margin: 0 10px 0 0;
+  cursor: pointer;
+  &:hover{
+    animation: flip; 
+    animation-duration: 2s; 
+  }
+}
+
+footer p {
+  margin-bottom: 20px;
+}
+
+footer h2 {
+  margin-bottom: 20px;
+}
+
+

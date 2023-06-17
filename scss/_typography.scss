@@ -1,0 +1,119 @@
+@use "helpers" as *;
+
+// header
+.heading-h1 {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 98px;
+  color: $color-white;
+  padding: 224px 0 20px 0;
+  text-align: center;
+  &:hover {
+    animation: bounce;
+    animation-duration: 2s;
+  }
+}
+
+.slogan {
+  font-size: 18px;
+  line-height: 22px;
+  color: $color-white;
+  text-align: center;
+  padding-bottom: 252px;
+}
+
+// section
+
+.heading-h2 {
+  font-size: 44px;
+  line-height: 54px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.heading-h2-cetntre {
+  text-align: center;
+  position: relative;
+  margin: 100px 0 90px 0;
+  padding-top: 30px;
+  &::before {
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color: $color-main;
+    position: absolute;
+    top: 0;
+    left: 47%;
+  }
+}
+
+.subject {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: $font-open-sans;
+}
+
+.location {
+  font-family: $font-open-sans;
+  font-size: 15px;
+  line-height: 20px;
+  font-style: italic;
+}
+
+// section news
+
+.heading-h2-white {
+  color: $color-white;
+  padding-top: 150px;
+  &::before {
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color: $color-white;
+    position: absolute;
+    top: 0;
+    left: 47%;
+    margin-top: 120px;
+  }
+}
+
+.heading-h3 {
+  font-size: 22px;
+  line-height: 26px;
+  padding-bottom: 10px;
+}
+
+.card__text {
+  margin: 20px 0 20px 10px;
+}
+
+.news-text {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.blue-text {
+  font-size: 14px;
+  line-height: 17px;
+  color: $color-blue;
+}
+
+.footer-icon {
+  color: $color-violet;
+}
+
+.footer-h2 {
+  margin-bottom: 40px;
+}
+
+.last-row {
+  font-size: 14px;
+  line-height: 17px;
+  color: $color-white;
+  padding-top: 40px;
+}

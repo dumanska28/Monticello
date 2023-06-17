@@ -1,0 +1,13 @@
+@use 'variables'  as * ;
+
+@mixin flex-box($direction: row, $justify: initial, $gap: 0) {
+  flex-direction: $direction;
+  justify-content: $justify;
+  gap: #{$gap}px;
+}
+
+@mixin button($background: none, $color: none, $padding: 0) {
+  background: $background;
+  color: $color;
+  padding: 16px 40px;
+}
